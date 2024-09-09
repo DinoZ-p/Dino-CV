@@ -1,0 +1,169 @@
+/* Remove default page margins and set font family for the whole page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Separate name and contact link */
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333; /* Dark background */
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Center children */
+    align-items: center;
+    border-top: 2px solid #ccc;
+}
+
+/* Splash section for the headshot */
+.splash {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main heading with a Google font */
+h1 {
+    font-family: 'Roboto', sans-serif; /* Google Font */
+    font-size: 36px;
+    color: #2C3E50;
+}
+
+/* Style the headshot image */
+img {
+    border-radius: 50%; /* Circular image */
+    border: 5px solid #3498db; /* Blue border */
+    width: 120px; /* Size the image */
+    height: 190px;
+    display: block;
+    margin: 0 auto; /* Center image */
+}
+
+/* Style the address paragraph */
+address {
+    font-style: normal;
+    color: #7f8c8d;
+    text-align: center;
+}
+
+/* Style the tag line paragraph */
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #2980b9;
+}
+
+/* Style the horizontal rule */
+hr {
+    border: 2px solid #bdc3c7;
+    margin: 20px 0;
+}
+
+/* Style the section headings */
+h2 {
+    font-family: 'Roboto', sans-serif; /* Same Google Font */
+    font-size: 28px;
+    color: #16a085;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the unordered lists */
+ul {
+    list-style-type: square; /* Change bullet style */
+    padding-left: 20px;
+    color: #2C3E50;
+}
+
+/* Style the description lists with a grid layout */
+dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    color: #2C3E50;
+}
+
+/* Style links */
+a {
+    color: #3498db; /* Blue links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #e74c3c; /* Red on hover */
+    text-decoration: underline;
+}
+
+/* Project section styling */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3-column layout */
+    gap: 20px;
+}
+
+.card {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Style images in project cards */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Flexbox alignment for input form elements */
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for the entire form */
+    grid-gap: 15px; /* Spacing between form elements */
+    max-width: 700px; /* Width of the form */
+    margin: 0 auto; /* Center the form */
+    align-items: center;
+    justify-items: center; /* Center the content horizontally */
+}
+
+/* Align the labels to the left */
+label {
+    justify-self: start; /* Align labels to the left */
+    margin-top: 10px;
+}
+
+/* Input field styling */
+input, textarea {
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #bdc3c7;
+    width: 100%; /* Full width for the input fields */
+    font-size: 16px;
+}
+
+/* Style submit button */
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 10px;
+    justify-self: center; /* Center the submit button */
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
